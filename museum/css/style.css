@@ -330,7 +330,7 @@ main {
     position: absolute;
     width: 470px;
     height: 100%;
-    background: url(../museum/img/headerticket.png) no-repeat;
+    background: url(../img/headerticket.png) no-repeat;
 }
 
 .right .card2 {
@@ -339,7 +339,7 @@ main {
     height: 211px;
     left: 140px;
     top: 355px;
-    background: url(../museum/img/card2.png);
+    background: url(../img/card2.png);
 }
 
 .right .card1 {
@@ -348,7 +348,7 @@ main {
     height: 211px;
     left: 30px;
     top: 325px;
-    background: url(../museum/img/card1.png);
+    background: url(../img/card1.png);
     z-index: 3;
 }
 
