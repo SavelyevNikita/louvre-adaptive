@@ -7,13 +7,9 @@ footer .footer {
     margin: 0 auto;
     width: 1440px;
     height: 392px;
-    /* border: red dashed; */
 }
 
 footer .footer .footer-logo {
-    /* border: red dashed; */
-    /* position: absolute;
-    left: 0px; */
     margin-top: 75px;
 }
 
