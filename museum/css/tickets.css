@@ -128,7 +128,6 @@
     align-items: center;
     justify-content: center;
     background-color: #000000;
-    /* margin-left: 50px; */
 }
 
 .button:hover {
@@ -162,14 +161,12 @@
     font-weight: bold;
     font-size: 28px;
     line-height: 33px;
-    /* identical to box height */
     letter-spacing: 1.65px;
     color: #000000;
 }
 
 #basic_number,
 #senior_number {
-    /* margin-right: 20px; */
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
