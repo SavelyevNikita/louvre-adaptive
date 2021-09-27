@@ -1,0 +1,202 @@
+footer {
+    background-color: #030303;
+}
+
+footer .footer {
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 392px;
+    /* border: red dashed; */
+}
+
+footer .footer .footer-logo {
+    /* border: red dashed; */
+    /* position: absolute;
+    left: 0px; */
+    margin-top: 75px;
+}
+
+footer .footer .footer-logo span {
+    margin: 0 0 0 25px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer .footer .navigation {
+    position: absolute;
+    width: 363px;
+    height: 128px;
+    left: 340px;
+    top: 87px;
+}
+
+footer .footer .navigation nav ul li a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+footer .footer .navigation nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 361px;
+    height: 103px;
+}
+
+footer .footer .navigation nav ul li {
+    align-items: center;
+}
+
+footer .footer .footer-information {
+    position: absolute;
+    width: 1440px;
+    height: 24px;
+    left: 0px;
+    top: 318px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer .footer-information span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+footer .footer .footer-information a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+footer .footer hr {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 268px;
+    background: #666666;
+}
+
+footer .footer .wraper {
+    position: absolute;
+    width: 340px;
+    height: 48px;
+    left: 1100px;
+    top: 162px;
+}
+
+footer .footer .wraper ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.youtube:hover {
+    width: 48px;
+    height: 48px;
+    background: url(../img/youtube.svg ) no-repeat #9D8665;
+    border: #9D8665 solid 3px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+}
+
+.youtube {
+    width: 48px;
+    height: 48px;
+    background: url(../img/youtube.svg ) no-repeat;
+    border: #FFFFFF solid 1px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+}
+
+.insta:hover {
+    width: 48px;
+    height: 48px;
+    background: url(../img/insta.svg) no-repeat #9D8665;
+    border: #FFFFFF solid 1px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+}
+
+.insta {
+    width: 48px;
+    height: 48px;
+    background: url(../img/insta.svg) no-repeat;
+    border: #FFFFFF solid 1px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+}
+
+.facebook:hover {
+    width: 48px;
+    height: 48px;
+    background: url(../img/facebook.svg) no-repeat #9D8665;
+    border: #FFFFFF solid 1px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+}
+
+.facebook {
+    width: 48px;
+    height: 48px;
+    background: url(../img/facebook.svg) no-repeat;
+    border: #FFFFFF solid 1px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+}
+
+.twitter:hover {
+    width: 48px;
+    height: 48px;
+    background: url(../img/twitter.svg) no-repeat #9D8665;
+    border: #FFFFFF solid 1px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+}
+
+.twitter {
+    width: 48px;
+    height: 48px;
+    background: url(../img/twitter.svg) no-repeat;
+    border: #FFFFFF solid 1px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+}
+
+.pinterest:hover {
+    width: 48px;
+    height: 48px;
+    background: url(../img/pinterest.svg) no-repeat #9D8665;
+    border: #FFFFFF solid 1px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+}
+
+.pinterest {
+    width: 48px;
+    height: 48px;
+    background: url(../img/pinterest.svg) no-repeat;
+    border: #FFFFFF solid 1px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+}

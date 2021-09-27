@@ -1,0 +1,99 @@
+.welcome {
+    background-color: #030303;
+    width: 100%;
+}
+
+.welcome .container {
+    position: relative;
+    width: 1440px;
+    height: 810px;
+    background-color: #030303;
+    margin: 0 auto;
+    /* border: dashed red; */
+}
+
+.welcome-head {
+    position: absolute;
+    width: 598px;
+    height: 388px;
+    left: 0px;
+    top: 150px;
+    z-index: 2;
+    /* border: dashed red; */
+}
+
+.welcome-head-h2 {
+    position: absolute;
+    width: 598px;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.welcome .welcome-head .welcome-head-h2 .welcome-head-h2-span {
+    display: block;
+}
+
+.welcome-head-span {
+    position: absolute;
+    width: 445px;
+    height: 33px;
+    left: 0px;
+    top: 205px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.welcome a {
+    position: absolute;
+    width: 360px;
+    height: 75px;
+    left: 0px;
+    top: 313px;
+    background-color: #710707;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.welcome a:hover {
+    background-color: #9D8665;
+}
+
+.welcome a span {
+    position: absolute;
+    width: 232px;
+    height: 75px;
+    left: 64px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.welcome img {
+    position: absolute;
+    width: 1000px;
+    height: 750px;
+    right: 0px;
+    top: 0px;
+}

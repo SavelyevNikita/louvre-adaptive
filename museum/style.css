@@ -1,0 +1,375 @@
+/*Обнуление*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+обнеление html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+/*--------------------*/
+
+html {
+    font-family: Roboto;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+main {
+    color: white;
+    height: 8717px;
+}
+
+.poppup-ticket {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(155, 155, 155, 0.8);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poppup-wraper {
+    width: 1440px;
+    height: 845px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.poppup-ticket .poppup-wraper .poppup-order {
+    width: 970px;
+    height: 663px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.close-wraper {
+    text-decoration: none;
+}
+
+.close {
+    position: absolute;
+    left: 96.25%;
+    right: 2.01%;
+    top: 3.42%;
+    bottom: 93.64%;
+}
+
+.head {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+
+.logo-wraper img {
+    width: 85px;
+    height: 41px;
+}
+
+.logo-wraper p {
+    margin: 15px 0 10px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #710707;
+}
+
+.logo-wraper hr {
+    width: 400px;
+    height: 3px;
+    background: #740C11;
+}
+
+.entry-ticket {
+    padding: 10px 15px 15px 15px;
+    background: #FFFFFF;
+    border: 1px solid #030303;
+    box-sizing: border-box;
+}
+
+.date-time-wraper {
+    margin-top: 60px;
+    width: 400px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-time-wraper .date-ticket {
+    width: 190px;
+    height: 45px;
+    border: 1px solid #030303;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-ticket {
+    width: 190px;
+    height: 45px;
+    border: 1px solid #030303;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.name-ticket {
+    margin-top: 20px;
+    width: 400;
+    height: 45px;
+    border: 1px solid #030303;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.email-ticket {
+    margin-top: 20px;
+    width: 400;
+    height: 45px;
+    border: 1px solid #030303;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.tel-ticket {
+    margin-top: 20px;
+    width: 400;
+    height: 45px;
+    border: 1px solid #030303;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.type-ticket {
+    margin-top: 20px;
+    width: 400;
+    height: 45px;
+    border: 1px solid #030303;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.entry-ticket h3 {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #9D8665;
+}
+
+.entry-ticket hr {
+    width: 370px;
+    height: 2px;
+    background: #740C11;
+}
+
+.basic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basic .collect-of-button {
+    margin-top: 18px;
+    border: 1px solid #030303;
+    box-sizing: border-box;
+}
+
+.senior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.senior .collect-of-button {
+    margin-top: 22px;
+    border: 1px solid #030303;
+    box-sizing: border-box;
+}
+
+.basic p {
+    margin-top: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #030303;
+}
+
+.entry-ticket {
+    margin-top: 20px;
+}
+
+.senior p {
+    margin-top: 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #030303;
+}
+
+.left {
+    width: 400px;
+    height: 663px;
+}
+
+.right {
+    position: relative;
+    border: solid #030303 1px;
+    width: 530px;
+    height: 663px;
+    padding: 25px 25px 26px 25px;
+}
+
+.right .logo {
+    position: absolute;
+    width: 470px;
+    height: 100%;
+    background: url(../museum/img/headerticket.png) no-repeat;
+}
+
+.right .card2 {
+    position: absolute;
+    width: 360px;
+    height: 211px;
+    left: 140px;
+    top: 355px;
+    background: url(../museum/img/card2.png);
+}
+
+.right .card1 {
+    position: absolute;
+    width: 360px;
+    height: 211px;
+    left: 30px;
+    top: 325px;
+    background: url(../museum/img/card1.png);
+    z-index: 3;
+}
+
+.poppup-ticket {
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 3s;
+    transform: translate( -100%, 0);
+}
+
+.poppup-ticket:target {
+    transition-duration: 3s;
+    transform: translate( 0, 0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.close-wraper-all {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}

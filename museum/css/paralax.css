@@ -1,0 +1,9 @@
+#paralax .container div {
+    margin: 0 auto;
+    height: 400px;
+    top: 7430px;
+    background-position: center;
+    background: url(../img/parallax2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}

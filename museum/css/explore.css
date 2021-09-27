@@ -1,0 +1,86 @@
+#explore {
+    background-color: #030303;
+    height: 865px;
+    width: 100%;
+    padding: 75px 0;
+}
+
+#explore .container {
+    margin: 0 auto;
+    position: relative;
+    width: 1440px;
+    height: 715px;
+    /* border: dashed red; */
+}
+
+#explore .container h2 {
+    position: absolute;
+    width: 660px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#explore .container hr {
+    position: absolute;
+    width: 660px;
+    height: 3px;
+    left: 0px;
+    top: 115px;
+    background: #710707;
+    border-radius: 0px;
+}
+
+#explore .container p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+#explore .container .p1 {
+    position: absolute;
+    width: 659px;
+    height: 77px;
+    left: 0px;
+    top: 193px;
+}
+
+#explore .container .p2 {
+    position: absolute;
+    width: 660px;
+    height: 77px;
+    left: 0px;
+    top: 295px;
+}
+
+#explore .container .p2 span {
+    color: #CAAA7D;
+}
+
+#explore .container .p3 {
+    position: absolute;
+    width: 660px;
+    height: 77px;
+    left: 0px;
+    top: 397px;
+}
+
+#explore .container .image {
+    position: absolute;
+    width: 720px;
+    height: 700px;
+    left: 720px;
+    top: 15px;
+    background: url(../img/explore-slider/after.jpg);
+}

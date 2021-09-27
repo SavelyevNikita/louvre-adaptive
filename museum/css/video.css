@@ -1,0 +1,80 @@
+#video {
+    width: 100%;
+    padding: 75px 0;
+}
+
+#video .container {
+    margin: 0 auto;
+    width: 1440px;
+    height: 1246px;
+}
+
+#video .video {
+    position: relative;
+    margin-top: 25px;
+    width: 1440px;
+    height: 735px;
+}
+
+#video .container .head {
+    width: 1440px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#video .video .button-video {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 610px;
+    top: 215px;
+}
+
+#video .container .slider-video {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#video .container .head h2 {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+    /* border: dashed red */
+}
+
+#video .container .head .video-text {
+    text-transform: none;
+    width: 720px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#video .container .video {
+    margin-top: 75px;
+    width: 1440px;
+    height: 735px;
+}
+
+#video .container .list iframe {
+    width: 452px;
+    height: 254px;
+}
+
+#video .container .list {
+    margin-top: 40px;
+    height: 254px;
+    display: flex;
+    justify-content: space-between;
+}

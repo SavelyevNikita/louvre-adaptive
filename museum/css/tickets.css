@@ -1,0 +1,180 @@
+#tickets {
+    width: 100%;
+    padding: 75px 0;
+}
+
+#tickets .container {
+    margin: 0 auto;
+    width: 1440px;
+    height: 743px;
+}
+
+#tickets .container h2 {
+    width: 472px;
+    height: 90px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+
+#tickets .container hr {
+    margin-top: 25px;
+    width: 1440px;
+    height: 3px;
+    background: #710707;
+    border-radius: 0px;
+}
+
+#tickets .container .wraper {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tickets .container .wraper .image {
+    width: 720px;
+    height: 550px;
+    background: url(../img/Rectangle.png);
+}
+
+#tickets .container .wraper .order {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tickets .container .wraper .order .ticket-type span {
+    margin-bottom: 50px;
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    letter-spacing: 0.5px;
+}
+
+#tickets .container .wraper .order button {
+    width: 50px;
+    color: #000000;
+}
+
+#tickets .container .wraper .order .ticket-type p {
+    margin: 25px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+#tickets .container .wraper .order .amount {
+    text-align: right;
+}
+
+#tickets .container .wraper .order .amount .basic-number {
+    display: flex;
+    justify-content: center;
+    border: black solid 1px;
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.header-amount {
+    display: block;
+    right: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+#tickets .container .wraper .order .amount p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin: 10px 55px 15px 0px;
+}
+
+#tickets .container .wraper .order .amount .senior-number {
+    display: flex;
+    border: black solid 1px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.button {
+    border-radius: 5px;
+    width: 175px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    /* margin-left: 50px; */
+}
+
+.button:hover {
+    background: #9D8665;
+    border-radius: 2px;
+}
+
+.button a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.button a:hover {
+    color: #000000;
+}
+
+#tickets .container .wraper .order .amount .total {
+    display: block;
+    margin: 50px 0px 60px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    letter-spacing: 1.65px;
+    color: #000000;
+}
+
+#basic_number,
+#senior_number {
+    /* margin-right: 20px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
