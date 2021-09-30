@@ -110,10 +110,11 @@ footer .footer .wraper ul {
 .youtube:hover {
     width: 48px;
     height: 48px;
-    background: url(../img/youtube.svg ) no-repeat #9D8665;
-    border: #9D8665 solid 3px;
+    background: url(../img/youtube.svg ) no-repeat;
+    border: #9D8665 solid 1px;
     border-radius: 50%;
     background-position: 50% 50%;
+    transition-duration: 1s;
 }
 
 .youtube {
@@ -123,15 +124,17 @@ footer .footer .wraper ul {
     border: #FFFFFF solid 1px;
     border-radius: 50%;
     background-position: 50% 50%;
+    transition-duration: 1s;
 }
 
 .insta:hover {
     width: 48px;
     height: 48px;
-    background: url(../img/insta.svg) no-repeat #9D8665;
-    border: #FFFFFF solid 1px;
+    background: url(../img/insta.svg) no-repeat;
+    border: #9D8665 solid 1px;
     border-radius: 50%;
     background-position: 50% 50%;
+    transition-duration: 1s;
 }
 
 .insta {
@@ -141,13 +144,14 @@ footer .footer .wraper ul {
     border: #FFFFFF solid 1px;
     border-radius: 50%;
     background-position: 50% 50%;
+    transition-duration: 1s;
 }
 
 .facebook:hover {
     width: 48px;
     height: 48px;
-    background: url(../img/facebook.svg) no-repeat #9D8665;
-    border: #FFFFFF solid 1px;
+    background: url(../img/facebook.svg) no-repeat;
+    border: #9D8665 solid 1px;
     border-radius: 50%;
     background-position: 50% 50%;
 }
@@ -159,15 +163,17 @@ footer .footer .wraper ul {
     border: #FFFFFF solid 1px;
     border-radius: 50%;
     background-position: 50% 50%;
+    transition-duration: 1s;
 }
 
 .twitter:hover {
     width: 48px;
     height: 48px;
-    background: url(../img/twitter.svg) no-repeat #9D8665;
-    border: #FFFFFF solid 1px;
+    background: url(../img/twitter.svg) no-repeat;
+    border: #9D8665 solid 1px;
     border-radius: 50%;
     background-position: 50% 50%;
+    transition-duration: 1s;
 }
 
 .twitter {
@@ -177,15 +183,17 @@ footer .footer .wraper ul {
     border: #FFFFFF solid 1px;
     border-radius: 50%;
     background-position: 50% 50%;
+    transition-duration: 1s;
 }
 
 .pinterest:hover {
     width: 48px;
     height: 48px;
-    background: url(../img/pinterest.svg) no-repeat #9D8665;
-    border: #FFFFFF solid 1px;
+    background: url(../img/pinterest.svg) no-repeat;
+    border: #9D8665 solid 1px;
     border-radius: 50%;
     background-position: 50% 50%;
+    transition-duration: 1s;
 }
 
 .pinterest {
@@ -195,4 +203,5 @@ footer .footer .wraper ul {
     border: #FFFFFF solid 1px;
     border-radius: 50%;
     background-position: 50% 50%;
+    transition-duration: 1s;
 }

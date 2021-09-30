@@ -60,7 +60,10 @@
     letter-spacing: 0.5px;
 }
 
-#tickets .container .wraper .order button {
+#tickets .container .wraper .order .basic_number_minus,
+.basic_number_plus,
+.senior_number_minus,
+.senior_number_plus {
     width: 50px;
     color: #000000;
 }

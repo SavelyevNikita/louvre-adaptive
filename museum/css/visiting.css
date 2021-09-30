@@ -1,266 +1,238 @@
-#visiting {
-    background-color: #FFFFFF;
-    width: 100%;
-    padding: 75px 0;
-}
-
-#visiting .container {
-    position: relative;
-    width: 1440px;
-    height: 1116px;
-    margin: 0 auto;
-    /* margin: 75px 0; */
-    /* border: dashed red */
-}
-
-#visiting .container hr {
-    position: absolute;
-    width: 1440px;
-    height: 3px;
-    left: 0px;
-    top: 115px;
-    background: #710707;
-    border-radius: 0px;
-}
-
-#visiting .container h2 {
-    position: absolute;
-    width: 550px;
-    height: 90px;
-    left: 0px;
-    top: 0px;
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 80px;
-    line-height: 90px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #9D8665;
-}
-
-#visiting .container .royal-palace {
-    position: absolute;
-    width: 440px;
-    height: 424px;
-    left: 0px;
-    top: 193px;
-}
-
-.name {
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 35px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.virtual-tour {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 22px;
-    line-height: 26px;
-    color: #000000;
-}
-
-.gspw {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 21px;
-    color: #000000;
-}
-
-#visiting .container .royal-palace .name {
-    position: absolute;
-    width: 252px;
-    height: 35px;
-    left: 0px;
-    top: 310px;
-}
-
-#visiting .container .royal-palace .virtual-tour {
-    position: absolute;
-    width: 165px;
-    height: 26px;
-    left: 0px;
-    top: 367px;
-}
-
-#visiting .container .royal-palace .gspw {
-    position: absolute;
-    width: 240px;
-    height: 21px;
-    left: 0px;
-    top: 403px;
-}
-
-#visiting .container .denon-wing {
-    position: absolute;
-    width: 440px;
-    height: 424px;
-    left: 500px;
-    top: 193px;
-    color: #000000;
-}
-
-#visiting .container .denon-wing .name {
-    position: absolute;
-    width: 233px;
-    height: 35px;
-    left: 0px;
-    top: 310px;
-}
-
-#visiting .container .denon-wing .virtual-tour {
-    position: absolute;
-    width: 165px;
-    height: 26px;
-    left: 0px;
-    top: 367px;
-}
-
-#visiting .container .denon-wing .gspw {
-    position: absolute;
-    width: 240px;
-    height: 21px;
-    left: 0px;
-    top: 403px;
-}
-
-#visiting .container .colonnade-perrault {
-    position: absolute;
-    width: 440px;
-    height: 424px;
-    left: 1000px;
-    top: 193px;
-    color: #000000;
-}
-
-#visiting .container .colonnade-perrault .name {
-    position: absolute;
-    width: 403px;
-    height: 35px;
-    left: 0px;
-    top: 310px;
-}
-
-#visiting .container .colonnade-perrault .virtual-tour {
-    position: absolute;
-    width: 165px;
-    height: 26px;
-    left: 0px;
-    top: 367px;
-}
-
-#visiting .container .colonnade-perrault .gspw {
-    position: absolute;
-    width: 240px;
-    height: 21px;
-    left: 0px;
-    top: 403px;
-}
-
-#visiting .container .greek-hall {
-    position: absolute;
-    width: 440px;
-    height: 424px;
-    left: 0px;
-    top: 692px;
-    color: #000000;
-}
-
-#visiting .container .greek-hall .name {
-    position: absolute;
-    width: 215px;
-    height: 35px;
-    left: 0px;
-    top: 310px;
-}
-
-#visiting .container .greek-hall .virtual-tour {
-    position: absolute;
-    width: 165px;
-    height: 26px;
-    left: 0px;
-    top: 367px;
-}
-
-#visiting .container .greek-hall .gspw {
-    position: absolute;
-    width: 240px;
-    height: 21px;
-    left: 0px;
-    top: 403px;
-}
-
-#visiting .container .mona-lisa {
-    position: absolute;
-    width: 440px;
-    height: 424px;
-    left: 500px;
-    top: 692px;
-    color: #000000;
-}
-
-#visiting .container .mona-lisa .name {
-    position: absolute;
-    /* width: 197px; */
-    height: 35px;
-    left: 0px;
-    top: 310px;
-}
-
-#visiting .container .mona-lisa .virtual-tour {
-    position: absolute;
-    width: 165px;
-    height: 26px;
-    left: 0px;
-    top: 367px;
-}
-
-#visiting .container .mona-lisa .gspw {
-    position: absolute;
-    width: 240px;
-    height: 21px;
-    left: 0px;
-    top: 403px;
-}
-
-#visiting .container .night-palace {
-    position: absolute;
-    width: 440px;
-    height: 424px;
-    left: 1000px;
-    top: 692px;
-    color: #000000;
-}
-
-#visiting .container .night-palace .name {
-    position: absolute;
-    width: 250px;
-    height: 35px;
-    left: 0px;
-    top: 310px;
-}
-
-#visiting .container .night-palace .virtual-tour {
-    position: absolute;
-    width: 165px;
-    height: 26px;
-    left: 0px;
-    top: 367px;
-}
-
-#visiting .container .night-palace .gspw {
-    position: absolute;
-    width: 240px;
-    height: 21px;
-    left: 0px;
-    top: 403px;
-}
+ @media (min-width: 1025px) {
+     #visiting {
+         background-color: #FFFFFF;
+         width: 100%;
+         height: 1266px;
+         padding: 75px 0;
+     }
+     #visiting .container {
+         width: 1440px;
+         height: 1116px;
+         margin: 0 auto;
+     }
+     #visiting .container h2 {
+         width: 550px;
+         height: 90px;
+         font-family: Forum;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 80px;
+         line-height: 90px;
+         letter-spacing: 5px;
+         text-transform: uppercase;
+         color: #9D8665;
+     }
+     .card-wraper {
+         margin-top: 75px;
+         align-items: flex-end;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+     }
+     .name {
+         margin-top: 25px;
+         font-family: Forum;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 32px;
+         line-height: 35px;
+         letter-spacing: 5px;
+         text-transform: uppercase;
+         color: #000000;
+     }
+     .virtual-tour {
+         display: block;
+         margin-top: 10px;
+         font-family: Roboto;
+         font-style: normal;
+         font-weight: 200;
+         font-size: 22px;
+         line-height: 26px;
+         color: #000000;
+     }
+     .gspw {
+         display: block;
+         margin-top: 10px;
+         font-family: Roboto;
+         font-style: normal;
+         font-weight: 200;
+         font-size: 18px;
+         line-height: 21px;
+         color: #000000;
+     }
+     #visiting .container .under-line {
+         margin-top: 25px;
+         width: 1440px;
+         height: 3px;
+         background: #710707;
+         border-radius: 0px;
+     }
+     .royal-palace hr,
+     .denon-wing hr,
+     .colonnade-perrault hr,
+     .greek-hall hr,
+     .mona-lisa hr,
+     .night-palace hr {
+         margin-top: 10px;
+         width: 300px;
+         height: 2px;
+         background: #710707;
+     }
+     .virtual-tour {
+         margin-top: 10px;
+         width: 165px;
+         height: 26px;
+     }
+     .gspw {
+         width: 240px;
+         height: 21px;
+     }
+     .royal-palace,
+     .denon-wing,
+     .colonnade-perrault {
+         width: 440px;
+         height: 424px;
+         margin-bottom: 75px;
+     }
+     .greek-hall,
+     .mona-lisa,
+     .night-palace {
+         width: 440px;
+         height: 424px;
+     }
+     .royal-palace:hover,
+     .denon-wing:hover,
+     .colonnade-perrault:hover,
+     .greek-hall:hover,
+     .mona-lisa:hover,
+     .night-palace:hover {
+         transition-duration: 2s;
+         box-shadow: 5px 5px 10px 5px black;
+         border-radius: 5px;
+     }
+ }
+ 
+ @media (max-width: 1024px) and (min-width: 769px) {
+     #visiting {
+         background-color: #FFFFFF;
+         width: 100%;
+         height: 1433px;
+         padding: 60px 0;
+     }
+     #visiting .container {
+         width: 984px;
+         height: 1313px;
+         margin: 0 auto;
+     }
+     #visiting .container h2 {
+         width: 363px;
+         height: 75px;
+         font-family: Forum;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 50px;
+         line-height: 75px;
+         letter-spacing: 5px;
+         text-transform: uppercase;
+         color: #9D8665;
+     }
+     .card-wraper {
+         margin-top: 60px;
+         align-items: flex-end;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+     }
+     .name {
+         margin-top: 25px;
+         font-family: Forum;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 28px;
+         line-height: 31px;
+         letter-spacing: 5px;
+         text-transform: uppercase;
+         color: #000000;
+     }
+     .virtual-tour {
+         display: block;
+         margin-top: 10px;
+         font-family: Roboto;
+         font-style: normal;
+         font-weight: 200;
+         font-size: 20px;
+         line-height: 23px;
+         color: #000000;
+     }
+     .gspw {
+         display: block;
+         margin-top: 10px;
+         font-family: Roboto;
+         font-style: normal;
+         font-weight: 200;
+         font-size: 16px;
+         line-height: 19px;
+         color: #000000;
+     }
+     #visiting .container .under-line {
+         margin-top: 20px;
+         width: 984px;
+         height: 3px;
+         background: #710707;
+         border-radius: 0px;
+     }
+     .royal-palace hr,
+     .denon-wing hr,
+     .colonnade-perrault hr,
+     .greek-hall hr,
+     .mona-lisa hr,
+     .night-palace hr {
+         margin-top: 10px;
+         width: 300px;
+         height: 2px;
+         background: #710707;
+     }
+     .virtual-tour {
+         margin-top: 10px;
+         width: 165px;
+         height: 26px;
+     }
+     .gspw {
+         width: 240px;
+         height: 21px;
+     }
+     .royal-palace,
+     .denon-wing,
+     .colonnade-perrault,
+     .greek-hall,
+     .mona-lisa,
+     .night-palace {
+         width: 330px;
+         height: 345px;
+         margin-bottom: 60px;
+     }
+     .royal-palace:hover,
+     .denon-wing:hover,
+     .colonnade-perrault:hover,
+     .greek-hall:hover,
+     .mona-lisa:hover,
+     .night-palace:hover {
+         transition-duration: 2s;
+         box-shadow: 5px 5px 10px 5px black;
+         border-radius: 5px;
+     }
+     .card-wraper img {
+         width: 330px;
+         height: 215px;
+     }
+ }
+ 
+ @media (min-width: 1921px) {}
+ 
+ @media (max-width: 1920px) and (min-width: 1025px) {}
+ 
+ @media (max-width: 1024px) and (min-width: 769px) {}
+ 
+ @media (max-width: 768) and (min-width: 421px) {}
+ 
+ @media (max-width: 420px) {}

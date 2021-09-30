@@ -360,7 +360,7 @@ main {
 }
 
 .poppup-ticket:target {
-    transition-duration: 2s;
+    transition-duration: 3s;
     transform: translate( 0, 0);
     opacity: 1;
     visibility: visible;
@@ -373,3 +373,6 @@ main {
     top: 0;
     right: 0;
 }
+
+
+/* appearance: none */
