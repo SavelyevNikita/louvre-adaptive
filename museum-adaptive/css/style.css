@@ -298,10 +298,9 @@ h6 {
         padding: 25px 25px 26px 25px;
     }
     .right .logo {
-        position: absolute;
-        width: 470px;
-        height: 100%;
-        background: url(../img/headerticket.png) no-repeat;
+        width: 150px;
+        height: 120px;
+        background: url(../img/poppup-ticket.png) no-repeat;
     }
     .right .card2 {
         position: absolute;
@@ -338,6 +337,78 @@ h6 {
         height: 100%;
         top: 0;
         right: 0;
+    }
+    .poppup-ticket-wraper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .poppup-head {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        color: #272727;
+    }
+    .poppup-abovehead {
+        margin: 2px 0 10px 0;
+        display: block;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+        color: #740C11;
+        opacity: 0.9;
+    }
+    .poppup-day0fweek,
+    .poppup-typeofexhibition,
+    .poppup-time {
+        margin: 5px 0;
+        display: block;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #030303;
+    }
+    .price {
+        margin: 22px 0;
+        background-color: orange;
+        width: 470px;
+        height: 117px;
+    }
+    .poppup-cardNumber {
+        margin: 34px 0 0 19px;
+        width: 215px;
+        height: 35px;
+    }
+    .poppup-date {
+        display: flex;
+        margin: 30px 0 0 20px;
+        width: 215px;
+        height: 35px;
+        justify-content: space-between;
+    }
+    .poppup-month,
+    .poppup-year {
+        width: 100px;
+        height: 35px;
+        /* margin: 2px 0 0 2px; */
+    }
+    .poppup-owner {
+        margin: 28px 0 0 19px;
+        width: 320px;
+        height: 35px;
+    }
+    .poppup-cvc {
+        position: absolute;
+        left: 264px;
+        top: 107px;
+        width: 75px;
+        height: 35px;
+        z-index: 10;
     }
 }
 
