@@ -1,136 +1,275 @@
-#gallery {
-    width: 100%;
-    height: 2200px;
-    background: #030303;
-    overflow: hidden;
+@media (min-width: 1921px) {
+    #gallery {
+        width: 100%;
+        height: 2200px;
+        background: #030303;
+        overflow: hidden;
+    }
+    #gallery .container {
+        margin: 0 auto;
+        position: relative;
+        width: 1440px;
+        height: 2200px;
+        background: #030303;
+    }
+    #gallery .container h2 {
+        margin-top: 75px;
+        width: 518px;
+        height: 90px;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 90px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    #gallery .container .div-00 {
+        position: absolute;
+        width: 456px;
+        height: 570px;
+        left: 0px;
+        top: 215px;
+        background: url(../img/galery/galery2.jpg);
+    }
+    #gallery .container .div-01 {
+        position: absolute;
+        width: 456px;
+        height: 456px;
+        left: 492px;
+        top: 165px;
+        background: url(../img/galery/galery1.jpg);
+    }
+    #gallery .container .div-02 {
+        position: absolute;
+        width: 456px;
+        height: 570px;
+        left: 984px;
+        top: 215px;
+        background: url(../img/galery/galery7.jpg);
+    }
+    #gallery .container .div-10 {
+        position: absolute;
+        width: 456px;
+        height: 570px;
+        left: 0px;
+        top: 809px;
+        background: url(../img/galery/galery9.jpg);
+    }
+    #gallery .container .div-11 {
+        position: absolute;
+        width: 456px;
+        height: 570px;
+        left: 492px;
+        top: 645px;
+        background: url(../img/galery/galery8.jpg);
+    }
+    #gallery .container .div-12 {
+        position: absolute;
+        width: 456px;
+        height: 456px;
+        left: 984px;
+        top: 809px;
+        background: url(../img/galery/galery10.jpg);
+    }
+    #gallery .container .div-20 {
+        position: absolute;
+        width: 456px;
+        height: 456px;
+        left: 0px;
+        top: 1403px;
+        background: url(../img/galery/galery4.jpg);
+    }
+    #gallery .container .div-21 {
+        position: absolute;
+        width: 456px;
+        height: 570px;
+        left: 492px;
+        top: 1239px;
+        background: url(../img/galery/galery3.jpg);
+    }
+    #gallery .container .div-22 {
+        position: absolute;
+        width: 456px;
+        height: 456px;
+        left: 984px;
+        top: 1289px;
+        background: url(../img/galery/galery15.jpg);
+    }
+    #gallery .container .div-30 {
+        position: absolute;
+        width: 456px;
+        height: 100%;
+        left: 0px;
+        top: 1883px;
+        background: url(../img/galery/galery6.jpg) no-repeat;
+    }
+    #gallery .container .div-31 {
+        position: absolute;
+        width: 456px;
+        height: 100%;
+        left: 492px;
+        top: 1833px;
+        background: url(../img/galery/galery5.jpg) no-repeat;
+    }
+    #gallery .container .div-32 {
+        position: absolute;
+        width: 456px;
+        height: 100%;
+        left: 984px;
+        top: 1769px;
+        background: url(../img/galery/galery12.jpg) no-repeat;
+    }
 }
 
-#gallery .container {
-    margin: 0 auto;
-    position: relative;
-    width: 1440px;
-    height: 2200px;
-    background: #030303;
+@media (max-width: 1920px) and (min-width: 1025px) {
+    #gallery {
+        width: 100%;
+        height: 1460px;
+        background: #030303;
+        overflow: hidden;
+    }
+    #gallery .container {
+        margin: 0 auto;
+        position: relative;
+        width: 984px;
+        height: 1400px;
+        background: #030303;
+    }
+    #gallery .container h2 {
+        /* position: absolute; */
+        margin-top: 60px;
+        width: 335px;
+        height: 75px;
+        /* left: 0px;
+        top: 0px; */
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 75px;
+        /* identical to box height, or 150% */
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    #gallery .container .div-00 {
+        position: absolute;
+        width: 304px;
+        height: 304px;
+        left: 0px;
+        top: 185px;
+        background: url(../img/galery/galery1.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-01 {
+        position: absolute;
+        width: 304px;
+        height: 380px;
+        left: 340px;
+        top: 135px;
+        background: url(../img/galery/galery7.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-02 {
+        position: absolute;
+        width: 304px;
+        height: 228px;
+        left: 680px;
+        top: 185px;
+        background: url(../img/galery/galery12.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-10 {
+        position: absolute;
+        width: 304px;
+        height: 380px;
+        left: 0px;
+        top: 513px;
+        background: url(../img/galery/galery2.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-11 {
+        position: absolute;
+        width: 304px;
+        height: 380px;
+        left: 340px;
+        top: 539px;
+        background: url(../img/galery/galery8.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-12 {
+        position: absolute;
+        width: 304px;
+        height: 380px;
+        left: 680px;
+        top: 437px;
+        background: url(../img/galery/galery3.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-20 {
+        position: absolute;
+        width: 304px;
+        height: 304px;
+        left: 0px;
+        top: 917px;
+        background: url(../img/galery/galery11.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-21 {
+        position: absolute;
+        width: 304px;
+        height: 228px;
+        left: 340px;
+        top: 943px;
+        background: url(../img/galery/galery13.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-22 {
+        position: absolute;
+        width: 304px;
+        height: 304px;
+        left: 680px;
+        top: 841px;
+        background: url(../img/galery/galery4.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-30 {
+        position: absolute;
+        width: 304px;
+        height: 162px;
+        left: 0px;
+        top: 1245px;
+        background: url(../img/galery/galery5.jpg) no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-31 {
+        position: absolute;
+        width: 304px;
+        height: 210px;
+        left: 340px;
+        top: 1195px;
+        background: url(../img/galery/galery14.jpg) no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-32 {
+        position: absolute;
+        width: 304px;
+        height: 237px;
+        left: 680px;
+        top: 1169px;
+        background: url(../img/galery/galery6.jpg) no-repeat;
+        background-size: cover;
+    }
 }
 
-#gallery .container h2 {
-    margin-top: 75px;
-    width: 518px;
-    height: 90px;
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 80px;
-    line-height: 90px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
+@media (min-width: 1921px) {}
 
-#gallery .container .div-00 {
-    position: absolute;
-    width: 456px;
-    height: 570px;
-    left: 0px;
-    top: 215px;
-    background: url(../img/galery/galery2.jpg);
-}
+@media (max-width: 1920px) and (min-width: 1025px) {}
 
-#gallery .container .div-01 {
-    position: absolute;
-    width: 456px;
-    height: 456px;
-    left: 492px;
-    top: 165px;
-    background: url(../img/galery/galery1.jpg);
-}
+@media (max-width: 1024px) and (min-width: 769px) {}
 
-#gallery .container .div-02 {
-    position: absolute;
-    width: 456px;
-    height: 570px;
-    left: 984px;
-    top: 215px;
-    background: url(../img/galery/galery7.jpg);
-}
+@media (max-width: 768) and (min-width: 421px) {}
 
-#gallery .container .div-10 {
-    position: absolute;
-    width: 456px;
-    height: 570px;
-    left: 0px;
-    top: 809px;
-    background: url(../img/galery/galery9.jpg);
-}
-
-#gallery .container .div-11 {
-    position: absolute;
-    width: 456px;
-    height: 570px;
-    left: 492px;
-    top: 645px;
-    background: url(../img/galery/galery8.jpg);
-}
-
-#gallery .container .div-12 {
-    position: absolute;
-    width: 456px;
-    height: 456px;
-    left: 984px;
-    top: 809px;
-    background: url(../img/galery/galery10.jpg);
-}
-
-#gallery .container .div-20 {
-    position: absolute;
-    width: 456px;
-    height: 456px;
-    left: 0px;
-    top: 1403px;
-    background: url(../img/galery/galery4.jpg);
-}
-
-#gallery .container .div-21 {
-    position: absolute;
-    width: 456px;
-    height: 570px;
-    left: 492px;
-    top: 1239px;
-    background: url(../img/galery/galery3.jpg);
-}
-
-#gallery .container .div-22 {
-    position: absolute;
-    width: 456px;
-    height: 456px;
-    left: 984px;
-    top: 1289px;
-    background: url(../img/galery/galery15.jpg);
-}
-
-#gallery .container .div-30 {
-    position: absolute;
-    width: 456px;
-    height: 100%;
-    left: 0px;
-    top: 1883px;
-    background: url(../img/galery/galery6.jpg) no-repeat;
-}
-
-#gallery .container .div-31 {
-    position: absolute;
-    width: 456px;
-    height: 100%;
-    left: 492px;
-    top: 1833px;
-    background: url(../img/galery/galery5.jpg) no-repeat;
-}
-
-#gallery .container .div-32 {
-    position: absolute;
-    width: 456px;
-    height: 100%;
-    left: 984px;
-    top: 1769px;
-    background: url(../img/galery/galery12.jpg) no-repeat;
-}
+@media (max-width: 420px) {}

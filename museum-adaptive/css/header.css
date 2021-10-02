@@ -1,68 +1,103 @@
-header {
-    background-color: #030303;
-}
-
-header .header {
-    width: 1440px;
-    height: 150px;
-    margin: 0 auto;
-    background-color: #030303;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .header .logo h1 {
-    display: inline;
-    margin: 0 0 0 25px;
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 31px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-header .header .logo-nav ul {
-    display: flex;
-    justify-content: space-between;
-    width: 775px;
-    height: 26px;
-}
-
-header .header .logo-nav a {
-    color: #ffffff;
-    display: inline;
-    font-weight: 200;
-    font-size: 22px;
-    line-height: 26px;
-    letter-spacing: 2px;
-    font-family: Roboto;
-    color: #FFFFFF;
-}
-
-header .header .logo-nav .visiting:hover {
-    color: #9D8665;
-}
-
-header .header .logo-nav .explore:hover {
-    color: #9D8665;
-}
-
-header .header .logo-nav .video:hover {
-    color: #9D8665;
-}
-
-header .header .logo-nav .gallery:hover {
-    color: #9D8665;
-}
-
-header .header .logo-nav .tickets:hover {
-    color: #9D8665;
-}
-
-header .header .logo-nav .contacts:hover {
-    color: #9D8665;
-}
+    @media (min-width: 1921px) {
+        header {
+            background-color: #030303;
+        }
+        header .header {
+            width: 1440px;
+            height: 150px;
+            margin: 0 auto;
+            background-color: #030303;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .header .logo h1 {
+            display: inline;
+            margin: 0 0 0 25px;
+            font-family: Forum;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            line-height: 31px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        header .header .logo-nav ul {
+            display: flex;
+            justify-content: space-between;
+            width: 775px;
+            height: 26px;
+        }
+        header .header .logo-nav a {
+            color: #ffffff;
+            display: inline;
+            font-weight: 200;
+            font-size: 22px;
+            line-height: 26px;
+            letter-spacing: 2px;
+            font-family: Roboto;
+            color: #FFFFFF;
+        }
+        header .header .logo-nav .visiting:hover {
+            color: #9D8665;
+        }
+        header .header .logo-nav .explore:hover {
+            color: #9D8665;
+        }
+        header .header .logo-nav .video:hover {
+            color: #9D8665;
+        }
+        header .header .logo-nav .gallery:hover {
+            color: #9D8665;
+        }
+        header .header .logo-nav .tickets:hover {
+            color: #9D8665;
+        }
+        header .header .logo-nav .contacts:hover {
+            color: #9D8665;
+        }
+    }
+    
+    @media (max-width: 1920px) and (min-width: 1025px) {
+        header {
+            background-color: #030303;
+        }
+        .logo img {
+            text-align: center;
+            width: 49px;
+            height: 26px;
+        }
+        header .header {
+            width: 984px;
+            height: 130px;
+            margin: 0 auto;
+            background-color: #030303;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .header .logo h1 {
+            width: 120px;
+            height: 31px;
+            display: inline;
+            margin: 0 0 0 25px;
+            font-family: Forum;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            line-height: 31px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        header .header .logo-nav {
+            display: none;
+        }
+    }
+    
+    @media (max-width: 1024px) and (min-width: 769px) {}
+    
+    @media (max-width: 768) and (min-width: 421px) {}
+    
+    @media (max-width: 420px) {}

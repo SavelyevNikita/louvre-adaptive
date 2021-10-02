@@ -1,149 +1,276 @@
-#video {
-    width: 100%;
-    padding: 75px 0;
+@media (min-width: 1921px) {
+    #video {
+        width: 100%;
+        padding: 75px 0;
+    }
+    #video .container {
+        margin: 0 auto;
+        width: 1440px;
+        height: 1246px;
+    }
+    #video .video {
+        position: relative;
+        margin-top: 25px;
+        width: 1440px;
+        height: 735px;
+    }
+    #video .container .head {
+        width: 1440px;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #video .video .button-video {
+        position: absolute;
+        width: 152px;
+        height: 152px;
+        left: 416px;
+        top: 146px;
+    }
+    #video .container .slider-video {
+        margin-top: 40px;
+        text-align: center;
+    }
+    #video .container .head h2 {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 90px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #9D8665;
+        /* border: dashed red */
+    }
+    #video .container .head .video-text {
+        text-transform: none;
+        width: 720px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 38px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    #video .container .video {
+        margin-top: 75px;
+        width: 1440px;
+        height: 735px;
+    }
+    #video .container .list iframe {
+        width: 452px;
+        height: 254px;
+    }
+    #video .container .list {
+        margin-top: 40px;
+        height: 254px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .panel-video {
+        /* border: deeppink dashed 1px; */
+        width: 1440px;
+        height: 85px;
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .play-pause {
+        background: url(../img/play.svg);
+        width: 22px;
+        height: 30px;
+        background-color: #000000;
+    }
+    .play-pause:hover {
+        background: url(../img/pause.svg);
+        width: 22px;
+        height: 30px;
+        background-color: #000000;
+        transition-duration: 1s;
+    }
+    .sound-mute {
+        background: url(../img/volume_on.svg);
+        background-color: #000000;
+        width: 36px;
+        height: 30px;
+    }
+    .sound-mute:hover {
+        background: url(../img/mute.svg);
+        background-color: #000000;
+        width: 36px;
+        height: 30px;
+        transition-duration: 1s;
+    }
+    .screen:hover {
+        background: url(../img/fullscreen_exit.svg);
+        background-color: #000000;
+        width: 36px;
+        height: 36px;
+        transition-duration: 1s;
+    }
+    .screen {
+        background: url(../img/fullscreen.svg);
+        background-color: #000000;
+        width: 36px;
+        height: 36px;
+    }
+    .progress {
+        background: linear-gradient(to right, #710707 0%, #710707 54%, #c4c4c4 54%, #c4c4c4 100%);
+        height: 7px;
+        width: 930px;
+        cursor: pointer;
+    }
+    .sound-level {
+        height: 7px;
+        width: 155px;
+        cursor: pointer;
+    }
 }
 
-#video .container {
-    margin: 0 auto;
-    width: 1440px;
-    height: 1246px;
+@media (max-width: 1920px) and (min-width: 1025px) {
+    #video {
+        width: 100%;
+        padding: 60px 0;
+    }
+    #video .container {
+        margin: 0 auto;
+        width: 984px;
+        height: 881px;
+    }
+    #video .video {
+        position: relative;
+        margin-top: 40px;
+        width: 984px;
+        height: 504px;
+    }
+    .main-video {
+        width: 984px;
+        height: 444px;
+    }
+    #video .container .head {
+        width: 1440px;
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #video .video .button-video {
+        position: absolute;
+        width: 152px;
+        height: 152px;
+        left: 416px;
+        top: 146px;
+    }
+    #video .container .slider-video {
+        margin: 0 auto;
+        margin-top: 40px;
+        text-align: center;
+        width: 200px;
+        height: 12px;
+    }
+    #video .container .head h2 {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 75px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #9D8665;
+    }
+    #video .container .head .video-text {
+        display: none;
+    }
+    #video .container .video {
+        width: 984px;
+        height: 504px;
+    }
+    #video .container .list iframe {
+        width: 300px;
+        height: 170px;
+    }
+    #video .container .list {
+        margin-top: 40px;
+        /* height: 254px; */
+        display: flex;
+        justify-content: space-between;
+    }
+    .panel-video {
+        padding: 0 25px;
+        width: 984px;
+        height: 60px;
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .play-pause {
+        /* margin-left: 20px; */
+        background: url(../img/play.svg)no-repeat;
+        width: 22px;
+        height: 30px;
+        background-color: #000000;
+        background-size: cover;
+    }
+    .play-pause:hover {
+        background: url(../img/pause.svg)no-repeat;
+        width: 22px;
+        height: 30px;
+        background-color: #000000;
+        transition-duration: 1s;
+        background-size: cover;
+        margin-left: 20px;
+    }
+    .sound-mute {
+        background: url(../img/volume_on.svg) no-repeat;
+        background-color: #000000;
+        width: 26px;
+        height: 20px;
+        background-size: cover;
+    }
+    .sound-mute:hover {
+        background: url(../img/mute.svg) 20px 26px no-repeat;
+        background-color: #000000;
+        width: 26px;
+        height: 20px;
+        transition-duration: 1s;
+        background-size: cover;
+    }
+    .screen:hover {
+        background: url(../img/fullscreen_exit.svg);
+        background-color: #000000;
+        width: 26px;
+        height: 26px;
+        transition-duration: 1s;
+        background-size: cover;
+    }
+    .screen {
+        background: url(../img/fullscreen.svg);
+        background-color: #000000;
+        width: 26px;
+        height: 26px;
+        background-size: cover;
+        /* margin-right: 20px; */
+    }
+    .progress {
+        background: linear-gradient(to right, #710707 0%, #710707 54%, #c4c4c4 54%, #c4c4c4 100%);
+        width: 564px;
+        height: 13px;
+        cursor: pointer;
+    }
+    .sound-level {
+        width: 143px;
+        height: 13px;
+        cursor: pointer;
+    }
 }
 
-#video .video {
-    position: relative;
-    margin-top: 25px;
-    width: 1440px;
-    height: 735px;
-}
+@media (max-width: 1024px) and (min-width: 769px) {}
 
-#video .container .head {
-    width: 1440px;
-    height: 90px;
-    display: flex;
-    justify-content: space-between;
-}
+@media (max-width: 768) and (min-width: 421px) {}
 
-#video .video .button-video {
-    position: absolute;
-    width: 220px;
-    height: 220px;
-    left: 610px;
-    top: 215px;
-}
-
-#video .container .slider-video {
-    margin-top: 40px;
-    text-align: center;
-}
-
-#video .container .head h2 {
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 80px;
-    line-height: 90px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #9D8665;
-    /* border: dashed red */
-}
-
-#video .container .head .video-text {
-    text-transform: none;
-    width: 720px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 38px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-}
-
-#video .container .video {
-    margin-top: 75px;
-    width: 1440px;
-    height: 735px;
-}
-
-#video .container .list iframe {
-    width: 452px;
-    height: 254px;
-}
-
-#video .container .list {
-    margin-top: 40px;
-    height: 254px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.panel-video {
-    border: deeppink dashed 1px;
-    width: 1440px;
-    height: 85px;
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.play-pause {
-    background: url(../img/play.svg);
-    width: 22px;
-    height: 30px;
-    background-color: #000000;
-}
-
-.play-pause:hover {
-    background: url(../img/pause.svg);
-    width: 22px;
-    height: 30px;
-    background-color: #000000;
-    transition-duration: 1s;
-}
-
-.sound-mute {
-    background: url(../img/volume_on.svg);
-    background-color: #000000;
-    width: 36px;
-    height: 30px;
-}
-
-.sound-mute:hover {
-    background: url(../img/mute.svg);
-    background-color: #000000;
-    width: 36px;
-    height: 30px;
-    transition-duration: 1s;
-}
-
-.screen:hover {
-    background: url(../img/fullscreen_exit.svg);
-    background-color: #000000;
-    width: 36px;
-    height: 36px;
-    transition-duration: 1s;
-}
-
-.screen {
-    background: url(../img/fullscreen.svg);
-    background-color: #000000;
-    width: 36px;
-    height: 36px;
-}
-
-.progress {
-    background: linear-gradient(to right, #710707 0%, #710707 54%, #c4c4c4 54%, #c4c4c4 100%);
-    height: 7px;
-    width: 930px;
-    cursor: pointer;
-}
-
-.sound-level {
-    height: 7px;
-    width: 155px;
-    cursor: pointer;
-}
+@media (max-width: 420px) {}
