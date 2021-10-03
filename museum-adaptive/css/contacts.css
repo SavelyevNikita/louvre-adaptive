@@ -157,9 +157,74 @@
     }
 }
 
-@media (max-width: 1920px) and (min-width: 1025px) {}
-
-@media (max-width: 1024px) and (min-width: 769px) {}
+@media (max-width: 1024px) and (min-width: 769px) {
+    #contacts .container {
+        margin: 40px auto;
+        width: 730px;
+        height: 818px;
+    }
+    #contacts .container h2 {
+        margin: 0 0 20px 0;
+        width: 261px;
+        height: 60px;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #9D8665;
+    }
+    #contacts .container hr {
+        width: 728px;
+        height: 3px;
+        background: #710707;
+        border-radius: 0px;
+    }
+    /* #contacts .container .wraper { */
+    /* display: flex;
+        justify-content: space-between; */
+    /* } */
+    #contacts .container .contacts_wraper {
+        margin: 40px 0 40px 0;
+        width: 100%;
+        height: 100%;
+    }
+    .contacts_wraper h3 {
+        margin-bottom: 40px;
+        width: 155px;
+        height: 46px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #000000;
+    }
+    .contacts_wraper a {
+        text-decoration: none;
+        color: #000000;
+    }
+    #contacts .container .wraper .contacts_wraper .p1,
+    .p2,
+    .p3 {
+        margin-bottom: 15px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #000000;
+    }
+    #contacts .container .wraper .image {
+        /* margin-top: 60px; */
+        background: url(../img/map_contacts.png) no-repeat;
+        width: 728px;
+        height: 476px;
+    }
+}
 
 @media (max-width: 768) and (min-width: 421px) {}
 

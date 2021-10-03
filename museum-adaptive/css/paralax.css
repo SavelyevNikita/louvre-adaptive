@@ -7,3 +7,23 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    #paralax .container div {
+        margin: 0 auto;
+        height: 300px;
+        top: 7430px;
+        background-position: center;
+        background: url(../img/parallax2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+
+/* width: 768px;
+    height: 300px @media (min-width: 1921px) {}
+    @media (max-width: 1920px) and (min-width: 1025px) {}
+    @media (max-width: 1024px) and (min-width: 769px) {}
+    @media (max-width: 768) and (min-width: 421px) {}
+    @media (max-width: 420px) {} */

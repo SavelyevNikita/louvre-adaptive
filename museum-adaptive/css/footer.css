@@ -365,9 +365,190 @@
     }
 }
 
-@media (max-width: 1920px) and (min-width: 1025px) {}
-
-@media (max-width: 1024px) and (min-width: 769px) {}
+@media (max-width: 1024px) and (min-width: 769px) {
+    footer {
+        background-color: #030303;
+    }
+    footer .footer {
+        margin: 67px auto;
+        width: 728px;
+        height: 411px;
+    }
+    .wrapper-flex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer-logo {
+        margin-top: 50px;
+        width: 204px;
+        height: 33px;
+    }
+    footer .footer .footer-logo span {
+        margin: 0 0 0 25px;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 31px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .navigation {
+        margin-top: 65px;
+        width: 405px;
+        height: 128px;
+    }
+    footer .footer .navigation nav ul li a {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    footer .footer .navigation nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 361px;
+        height: 103px;
+    }
+    footer .footer .navigation nav ul li {
+        align-items: center;
+    }
+    footer .footer .footer-information {
+        width: 100%;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .footer .footer-information span {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 22px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    footer .footer .footer-information a {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 22px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    footer .footer hr {
+        margin: 40px 0;
+        width: 768px;
+        height: 1px;
+        background: #666666;
+    }
+    footer .footer .wraper {
+        margin: 27px 0 0 297px;
+        width: 340px;
+        height: 48px;
+    }
+    footer .footer .wraper ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .youtube:hover {
+        width: 48px;
+        height: 48px;
+        background: url(../img/youtube.svg ) no-repeat;
+        border: #9D8665 solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .youtube {
+        width: 48px;
+        height: 48px;
+        background: url(../img/youtube.svg ) no-repeat;
+        border: #FFFFFF solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .insta:hover {
+        width: 48px;
+        height: 48px;
+        background: url(../img/insta.svg) no-repeat;
+        border: #9D8665 solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .insta {
+        width: 48px;
+        height: 48px;
+        background: url(../img/insta.svg) no-repeat;
+        border: #FFFFFF solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .facebook:hover {
+        width: 48px;
+        height: 48px;
+        background: url(../img/facebook.svg) no-repeat;
+        border: #9D8665 solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+    }
+    .facebook {
+        width: 48px;
+        height: 48px;
+        background: url(../img/facebook.svg) no-repeat;
+        border: #FFFFFF solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .twitter:hover {
+        width: 48px;
+        height: 48px;
+        background: url(../img/twitter.svg) no-repeat;
+        border: #9D8665 solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .twitter {
+        width: 48px;
+        height: 48px;
+        background: url(../img/twitter.svg) no-repeat;
+        border: #FFFFFF solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .pinterest:hover {
+        width: 48px;
+        height: 48px;
+        background: url(../img/pinterest.svg) no-repeat;
+        border: #9D8665 solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .pinterest {
+        width: 48px;
+        height: 48px;
+        background: url(../img/pinterest.svg) no-repeat;
+        border: #FFFFFF solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+}
 
 @media (max-width: 768) and (min-width: 421px) {}
 

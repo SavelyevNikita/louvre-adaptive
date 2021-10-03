@@ -264,12 +264,115 @@
     }
 }
 
-@media (min-width: 1921px) {}
+@media (max-width: 1024px) and (min-width: 769px) {
+    #gallery {
+        width: 100%;
+        height: 1220px;
+        background: #030303;
+        overflow: hidden;
+    }
+    #gallery .container {
+        margin: 40px auto 0;
+        position: relative;
+        width: 768px;
+        height: 1220px;
+        background: #030303;
+    }
+    #gallery .container h2 {
+        padding: 40px 0 0 20px;
+        /* width: 280px;
+        height: 60px; */
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    #gallery .container .div-00 {
+        position: absolute;
+        width: 352px;
+        height: 351px;
+        left: 20px;
+        top: 190px;
+        background: url(../img/galery/galery4.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-01 {
+        position: absolute;
+        width: 352px;
+        height: 264px;
+        left: 396px;
+        top: 140px;
+        background: url(../img/galery/galery13.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-02 {
+        position: absolute;
+        width: 352px;
+        height: 264px;
+        left: 396px;
+        top: 428px;
+        background: url(../img/galery/galery12.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-10 {
+        position: absolute;
+        width: 352px;
+        height: 440px;
+        left: 20px;
+        top: 565px;
+        background: url(../img/galery/galery7.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-11 {
+        position: absolute;
+        width: 352px;
+        height: 440px;
+        left: 396px;
+        top: 716px;
+        background: url(../img/galery/galery9.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-12 {
+        position: absolute;
+        width: 352px;
+        height: 191px;
+        left: 20px;
+        top: 1029px;
+        background: url(../img/galery/galery11.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-20 {
+        position: absolute;
+        width: 352px;
+        height: 40px;
+        left: 396px;
+        top: 1180px;
+        background: url(../img/galery/galery10.jpg)no-repeat;
+        background-size: cover;
+    }
+    #gallery .container .div-21 {
+        display: none;
+    }
+    #gallery .container .div-22 {
+        display: none;
+    }
+    #gallery .container .div-30 {
+        display: none;
+    }
+    #gallery .container .div-31 {
+        display: none;
+    }
+    #gallery .container .div-32 {
+        display: none;
+    }
+}
 
-@media (max-width: 1920px) and (min-width: 1025px) {}
-
-@media (max-width: 1024px) and (min-width: 769px) {}
-
-@media (max-width: 768) and (min-width: 421px) {}
-
-@media (max-width: 420px) {}
+@media (max-width: 768) and (min-width: 421px) {
+    #gallery {
+        display: none;
+    }
+}

@@ -92,12 +92,13 @@ h6 {
 
 /*--------------------*/
 
+html {
+    font-family: Roboto;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
 @media (min-width: 1921px) {
-    html {
-        font-family: Roboto;
-        font-style: normal;
-        scroll-behavior: smooth;
-    }
     main {
         color: white;
         height: 8717px;
@@ -426,9 +427,632 @@ h6 {
         transition-duration: 3s;
         transform: translate( -100%, 0);
     }
+    .poppup-ticket {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: rgb(155, 155, 155, 0.8);
+        top: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .poppup-wraper {
+        width: 1030px;
+        height: 768px;
+        background: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .poppup-ticket .poppup-wraper .poppup-order {
+        width: 970px;
+        height: 663px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .close-wraper {
+        text-decoration: none;
+    }
+    .close {
+        position: absolute;
+        left: 974px;
+        top: 9px;
+    }
+    .head {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 55px;
+        text-transform: uppercase;
+        color: #9D8665;
+    }
+    .logo-wraper img {
+        width: 85px;
+        height: 41px;
+    }
+    .logo-wraper p {
+        margin: 15px 0 10px 0;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #710707;
+    }
+    .logo-wraper hr {
+        width: 400px;
+        height: 3px;
+        background: #740C11;
+    }
+    .entry-ticket {
+        padding: 10px 15px 15px 15px;
+        background: #FFFFFF;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+    }
+    .date-time-wraper {
+        margin-top: 60px;
+        width: 400px;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .date-time-wraper .date-ticket {
+        width: 190px;
+        height: 45px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .time-ticket {
+        width: 190px;
+        height: 45px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .name-ticket {
+        margin-top: 20px;
+        width: 400;
+        height: 45px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+    .email-ticket {
+        margin-top: 20px;
+        width: 400;
+        height: 45px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+    .tel-ticket {
+        margin-top: 20px;
+        width: 400;
+        height: 45px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+    .type-ticket {
+        margin-top: 20px;
+        width: 400;
+        height: 45px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+    .entry-ticket h3 {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+        text-transform: capitalize;
+        color: #9D8665;
+    }
+    .entry-ticket hr {
+        width: 370px;
+        height: 2px;
+        background: #740C11;
+    }
+    .basic {
+        display: flex;
+        justify-content: space-between;
+    }
+    .basic .collect-of-button {
+        margin-top: 18px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+    }
+    .senior {
+        display: flex;
+        justify-content: space-between;
+    }
+    .senior .collect-of-button {
+        margin-top: 22px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+    }
+    .basic p {
+        margin-top: 18px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #030303;
+    }
+    .entry-ticket {
+        margin-top: 20px;
+    }
+    .senior p {
+        margin-top: 22px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #030303;
+    }
+    .left {
+        width: 400px;
+        height: 663px;
+    }
+    .right {
+        position: relative;
+        border: solid #030303 1px;
+        width: 530px;
+        height: 663px;
+        padding: 25px 25px 26px 25px;
+    }
+    .right .logo {
+        width: 150px;
+        height: 120px;
+        background: url(../img/poppup-ticket.png) no-repeat;
+    }
+    .right .card2 {
+        position: absolute;
+        width: 360px;
+        height: 211px;
+        left: 140px;
+        top: 355px;
+        background: url(../img/card2.png);
+    }
+    .right .card1 {
+        position: absolute;
+        width: 360px;
+        height: 211px;
+        left: 30px;
+        top: 325px;
+        background: url(../img/card1.png);
+        z-index: 3;
+    }
+    .poppup-ticket {
+        opacity: 0;
+        visibility: hidden;
+        transition-duration: 3s;
+        transform: translate( -100%, 0);
+    }
+    .poppup-ticket:target {
+        transition-duration: 3s;
+        transform: translate( 0, 0);
+        opacity: 1;
+        visibility: visible;
+    }
+    .close-wraper-all {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+    }
+    .poppup-ticket-wraper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .poppup-head {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        color: #272727;
+    }
+    .poppup-abovehead {
+        margin: 2px 0 10px 0;
+        display: block;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+        color: #740C11;
+        opacity: 0.9;
+    }
+    .poppup-day0fweek,
+    .poppup-typeofexhibition,
+    .poppup-time {
+        margin: 5px 0;
+        display: block;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #030303;
+    }
+    .price {
+        margin: 22px 0;
+        background-color: orange;
+        width: 470px;
+        height: 117px;
+    }
+    .poppup-cardNumber {
+        margin: 34px 0 0 19px;
+        width: 215px;
+        height: 35px;
+    }
+    .poppup-date {
+        display: flex;
+        margin: 30px 0 0 20px;
+        width: 215px;
+        height: 35px;
+        justify-content: space-between;
+    }
+    .poppup-month,
+    .poppup-year {
+        width: 100px;
+        height: 35px;
+        /* margin: 2px 0 0 2px; */
+    }
+    .poppup-owner {
+        margin: 28px 0 0 19px;
+        width: 320px;
+        height: 35px;
+    }
+    .poppup-cvc {
+        position: absolute;
+        left: 264px;
+        top: 107px;
+        width: 75px;
+        height: 35px;
+        z-index: 10;
+    }
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {}
+@media (max-width: 1024px) and (min-width: 769px) {
+    main {
+        color: white;
+        /* height: 7431px; */
+    }
+    .poppup-ticket {
+        opacity: 0;
+        visibility: hidden;
+        transition-duration: 3s;
+        transform: translate( -100%, 0);
+    }
+    .poppup-ticket {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: rgb(155, 155, 155, 0.8);
+        top: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .poppup-wraper {
+        width: 1030px;
+        height: 768px;
+        background: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .poppup-ticket .poppup-wraper .poppup-order {
+        width: 970px;
+        height: 663px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .close-wraper {
+        text-decoration: none;
+    }
+    .close {
+        position: absolute;
+        left: 974px;
+        top: 9px;
+    }
+    .head {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 55px;
+        text-transform: uppercase;
+        color: #9D8665;
+    }
+    .logo-wraper img {
+        width: 85px;
+        height: 41px;
+    }
+    .logo-wraper p {
+        margin: 15px 0 10px 0;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #710707;
+    }
+    .logo-wraper hr {
+        width: 400px;
+        height: 3px;
+        background: #740C11;
+    }
+    .entry-ticket {
+        padding: 10px 15px 15px 15px;
+        background: #FFFFFF;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+    }
+    .date-time-wraper {
+        margin-top: 60px;
+        width: 400px;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .date-time-wraper .date-ticket {
+        width: 190px;
+        height: 45px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .time-ticket {
+        width: 190px;
+        height: 45px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .name-ticket {
+        margin-top: 20px;
+        width: 400;
+        height: 45px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+    .email-ticket {
+        margin-top: 20px;
+        width: 400;
+        height: 45px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+    .tel-ticket {
+        margin-top: 20px;
+        width: 400;
+        height: 45px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+    .type-ticket {
+        margin-top: 20px;
+        width: 400;
+        height: 45px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+    .entry-ticket h3 {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+        text-transform: capitalize;
+        color: #9D8665;
+    }
+    .entry-ticket hr {
+        width: 370px;
+        height: 2px;
+        background: #740C11;
+    }
+    .basic {
+        display: flex;
+        justify-content: space-between;
+    }
+    .basic .collect-of-button {
+        margin-top: 18px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+    }
+    .senior {
+        display: flex;
+        justify-content: space-between;
+    }
+    .senior .collect-of-button {
+        margin-top: 22px;
+        border: 1px solid #030303;
+        box-sizing: border-box;
+    }
+    .basic p {
+        margin-top: 18px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #030303;
+    }
+    .entry-ticket {
+        margin-top: 20px;
+    }
+    .senior p {
+        margin-top: 22px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #030303;
+    }
+    .left {
+        width: 400px;
+        height: 663px;
+    }
+    .right {
+        position: relative;
+        border: solid #030303 1px;
+        width: 530px;
+        height: 663px;
+        padding: 25px 25px 26px 25px;
+    }
+    .right .logo {
+        width: 150px;
+        height: 120px;
+        background: url(../img/poppup-ticket.png) no-repeat;
+    }
+    .right .card2 {
+        position: absolute;
+        width: 360px;
+        height: 211px;
+        left: 140px;
+        top: 355px;
+        background: url(../img/card2.png);
+    }
+    .right .card1 {
+        position: absolute;
+        width: 360px;
+        height: 211px;
+        left: 30px;
+        top: 325px;
+        background: url(../img/card1.png);
+        z-index: 3;
+    }
+    .poppup-ticket {
+        opacity: 0;
+        visibility: hidden;
+        transition-duration: 3s;
+        transform: translate( -100%, 0);
+    }
+    .poppup-ticket:target {
+        transition-duration: 3s;
+        transform: translate( 0, 0);
+        opacity: 1;
+        visibility: visible;
+    }
+    .close-wraper-all {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+    }
+    .poppup-ticket-wraper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .poppup-head {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        color: #272727;
+    }
+    .poppup-abovehead {
+        margin: 2px 0 10px 0;
+        display: block;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+        color: #740C11;
+        opacity: 0.9;
+    }
+    .poppup-day0fweek,
+    .poppup-typeofexhibition,
+    .poppup-time {
+        margin: 5px 0;
+        display: block;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #030303;
+    }
+    .price {
+        margin: 22px 0;
+        background-color: orange;
+        width: 470px;
+        height: 117px;
+    }
+    .poppup-cardNumber {
+        margin: 34px 0 0 19px;
+        width: 215px;
+        height: 35px;
+    }
+    .poppup-date {
+        display: flex;
+        margin: 30px 0 0 20px;
+        width: 215px;
+        height: 35px;
+        justify-content: space-between;
+    }
+    .poppup-month,
+    .poppup-year {
+        width: 100px;
+        height: 35px;
+        /* margin: 2px 0 0 2px; */
+    }
+    .poppup-owner {
+        margin: 28px 0 0 19px;
+        width: 320px;
+        height: 35px;
+    }
+    .poppup-cvc {
+        position: absolute;
+        left: 264px;
+        top: 107px;
+        width: 75px;
+        height: 35px;
+        z-index: 10;
+    }
+}
 
 @media (max-width: 768) and (min-width: 421px) {}
 

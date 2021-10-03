@@ -152,10 +152,10 @@
         height: 444px;
     }
     #video .container .head {
-        width: 1440px;
+        width: 100%;
         height: 75px;
-        display: flex;
-        justify-content: space-between;
+        /* display: flex;
+        justify-content: space-between; */
     }
     #video .video .button-video {
         position: absolute;
@@ -269,8 +269,156 @@
     }
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {}
+@media (max-width: 1024px) and (min-width: 769px) {
+    #video {
+        width: 100%;
+    }
+    #video .container {
+        margin: 0 auto;
+        width: 728px;
+        height: 757px;
+    }
+    #video .video {
+        position: relative;
+        margin-top: 40px;
+        width: 728px;
+        height: 386px;
+    }
+    .main-video {
+        width: 728px;
+        height: 329px;
+    }
+    #video .container .head {
+        width: 100%;
+        height: 40px;
+    }
+    #video .video .button-video {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 324px;
+        top: 125px;
+    }
+    #video .container .slider-video {
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+        width: 200px;
+        height: 12px;
+    }
+    #video .container .head h2 {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #9D8665;
+    }
+    #video .container .head .video-text {
+        display: none;
+    }
+    #video .container .list iframe {
+        width: 354px;
+        height: 199px;
+    }
+    .pre-omg-3 {
+        display: none;
+    }
+    #video .container .list {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .panel-video {
+        /* padding: 0 px; */
+        width: 728px;
+        height: 63px;
+        background-color: #000000;
+        position: relative;
+        /* display: flex;
+        align-items: center;
+        flex-wrap: wrap; */
+        /* justify-content: space-around; */
+    }
+    .play-pause {
+        /* margin-left: 20px; */
+        background: url(../img/play.svg)no-repeat;
+        background-color: #000000;
+        background-size: cover;
+        position: absolute;
+        width: 23px;
+        height: 29px;
+        left: 30px;
+        top: 21px;
+    }
+    .play-pause:hover {
+        background: url(../img/pause.svg)no-repeat;
+        /* width: 22px;
+        height: 30px; */
+        background-color: #000000;
+        transition-duration: 1s;
+        background-size: cover;
+    }
+    .sound-mute {
+        background: url(../img/volume_on.svg) no-repeat;
+        background-color: #000000;
+        background-size: cover;
+        position: absolute;
+        width: 27px;
+        height: 21px;
+        left: 88px;
+        top: 25px;
+    }
+    .sound-mute:hover {
+        background: url(../img/mute.svg) no-repeat;
+        background-color: #000000;
+        transition-duration: 1s;
+        background-size: cover;
+    }
+    .screen:hover {
+        background: url(../img/fullscreen_exit.svg);
+        background-color: #000000;
+        transition-duration: 1s;
+        background-size: cover;
+    }
+    .screen {
+        background: url(../img/fullscreen.svg);
+        background-color: #000000;
+        background-size: cover;
+        position: absolute;
+        width: 27px;
+        height: 27px;
+        left: 671px;
+        top: 22px;
+    }
+    .progress {
+        background: linear-gradient(to right, #710707 0%, #710707 54%, #c4c4c4 54%, #c4c4c4 100%);
+        cursor: pointer;
+        position: absolute;
+        width: 728px;
+        height: 13px;
+        left: 0px;
+        top: 0px;
+    }
+    .sound-level {
+        position: absolute;
+        width: 486px;
+        height: 13px;
+        left: 150px;
+        top: 30px;
+    }
+}
 
-@media (max-width: 768) and (min-width: 421px) {}
+@media (max-width: 768) and (min-width: 421px) {
+    #video {
+        display: none;
+    }
+}
 
-@media (max-width: 420px) {}
+@media (max-width: 420px) {
+    #video {
+        display: none;
+    }
+}

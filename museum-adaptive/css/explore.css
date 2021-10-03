@@ -152,11 +152,48 @@
     }
 }
 
-@media (min-width: 1921px) {}
-
-@media (max-width: 1920px) and (min-width: 1025px) {}
-
-@media (max-width: 1024px) and (min-width: 769px) {}
+@media (max-width: 1024px) and (min-width: 769px) {
+    #explore {
+        background-color: #030303;
+        width: 100%;
+        padding: 40px 0px 0 0;
+    }
+    #explore .container {
+        margin: 0 auto;
+        /* position: relative; */
+        width: 768px;
+        height: 908px;
+    }
+    #explore .container h2 {
+        width: 367px;
+        height: 60px;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    #explore .container hr {
+        margin: 20px 0 40px;
+        width: 728px;
+        height: 3px;
+        left: 0px;
+        top: 95px;
+        background: #710707;
+        border-radius: 0px;
+    }
+    #explore .container p {
+        display: none;
+    }
+    #explore .container .image {
+        width: 728px;
+        height: 705px;
+        background: url(../img/explore-slider/after.jpg);
+    }
+}
 
 @media (max-width: 768) and (min-width: 421px) {}
 
