@@ -138,6 +138,44 @@
     }
 }
 
-@media (max-width: 768) and (min-width: 421px) {}
-
-@media (max-width: 420px) {}
+@media (max-width: 768) and (min-width: 420px) {
+    header {
+        background-color: #030303;
+        width: 100%;
+        height: 110px;
+    }
+    .logo {
+        width: 199px;
+        height: 41px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+    .logo img {
+        width: 49px;
+        height: 26px;
+    }
+    header .header {
+        width: 380px;
+        height: 90px;
+        margin: 0 auto;
+        background-color: #030303;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .header .logo h1 {
+        margin: 0 0 0 25px;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 50px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    header .header .logo-nav {
+        display: none;
+    }
+}

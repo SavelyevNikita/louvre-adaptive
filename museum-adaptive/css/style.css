@@ -738,7 +738,6 @@ html {
 @media (max-width: 1024px) and (min-width: 769px) {
     main {
         color: white;
-        /* height: 7431px; */
     }
     .poppup-ticket {
         opacity: 0;
@@ -747,39 +746,33 @@ html {
         transform: translate( -100%, 0);
     }
     .poppup-ticket {
-        width: 100%;
-        height: 100%;
+        margin: 0 auto;
         position: fixed;
         background-color: rgb(155, 155, 155, 0.8);
         top: 0;
         left: 0;
         z-index: 2;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
+        height: 100%;
     }
     .poppup-wraper {
-        width: 1030px;
-        height: 768px;
+        padding: 80px 30px 50px 30px;
+        width: 590px;
+        height: 1479px;
         background: #FFFFFF;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         position: relative;
     }
     .poppup-ticket .poppup-wraper .poppup-order {
-        width: 970px;
-        height: 663px;
-        display: flex;
-        justify-content: space-between;
+        width: 590px;
+        height: 1479px;
     }
     .close-wraper {
         text-decoration: none;
     }
     .close {
         position: absolute;
-        left: 974px;
-        top: 9px;
+        left: 535px;
+        top: 31px;
     }
     .head {
         font-family: Forum;
@@ -789,6 +782,7 @@ html {
         line-height: 55px;
         text-transform: uppercase;
         color: #9D8665;
+        width: 100%;
     }
     .logo-wraper img {
         width: 85px;
@@ -804,7 +798,7 @@ html {
         color: #710707;
     }
     .logo-wraper hr {
-        width: 400px;
+        width: 530px;
         height: 3px;
         background: #740C11;
     }
@@ -815,14 +809,14 @@ html {
         box-sizing: border-box;
     }
     .date-time-wraper {
-        margin-top: 60px;
-        width: 400px;
+        margin-top: 42px;
+        width: 530px;
         height: 45px;
         display: flex;
         justify-content: space-between;
     }
-    .date-time-wraper .date-ticket {
-        width: 190px;
+    .date-ticket {
+        width: 251px;
         height: 45px;
         border: 1px solid #030303;
         box-sizing: border-box;
@@ -831,7 +825,7 @@ html {
         align-items: center;
     }
     .time-ticket {
-        width: 190px;
+        width: 251px;
         height: 45px;
         border: 1px solid #030303;
         box-sizing: border-box;
@@ -929,10 +923,11 @@ html {
         color: #030303;
     }
     .left {
-        width: 400px;
-        height: 663px;
+        width: 530px;
+        height: 644px;
     }
     .right {
+        margin-top: 50px;
         position: relative;
         border: solid #030303 1px;
         width: 530px;
@@ -1055,5 +1050,3 @@ html {
 }
 
 @media (max-width: 768) and (min-width: 421px) {}
-
-@media (max-width: 420px) {}
