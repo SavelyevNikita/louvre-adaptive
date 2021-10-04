@@ -740,4 +740,192 @@
     }
 }
 
-@media (max-width: 419px) {}
+@media (max-width: 419px) {
+    footer {
+        background-color: #030303;
+    }
+    footer .footer {
+        margin: 0px auto;
+        width: 380px;
+        height: 400px;
+    }
+    .footer-logo {
+        /* margin-top: 50px; */
+        width: 100%;
+        height: 20px;
+    }
+    .wrapper-flex {
+        width: 100%;
+        height: 290px;
+    }
+    .footer-logo img {
+        width: 29px;
+        height: 16px
+    }
+    footer .footer .footer-logo span {
+        margin: 0 0 0 20px;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .navigation {
+        margin-top: 65px;
+        width: 405px;
+        height: 128px;
+    }
+    footer .footer .navigation nav ul li a {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    footer .footer .navigation nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 380px;
+        height: 56px;
+    }
+    footer .footer .navigation nav ul li {
+        align-items: center;
+    }
+    footer .footer .footer-information {
+        width: 100%;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .footer .footer-information span {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 22px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    footer .footer .footer-information a {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 22px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    footer .footer hr {
+        margin: 0px 0px 40px 0;
+        width: 380px;
+        height: 2px;
+        background: #666666;
+    }
+    footer .footer .wraper {
+        width: 380px;
+        height: 48px;
+    }
+    footer .footer .wraper ul {
+        display: flex;
+        justify-content: center;
+    }
+    .youtube:hover {
+        width: 48px;
+        height: 48px;
+        background: url(../img/youtube.svg ) no-repeat;
+        border: #9D8665 solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .youtube {
+        width: 48px;
+        height: 48px;
+        background: url(../img/youtube.svg ) no-repeat;
+        border: #FFFFFF solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .insta:hover {
+        width: 48px;
+        height: 48px;
+        background: url(../img/insta.svg) no-repeat;
+        border: #9D8665 solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .insta {
+        width: 48px;
+        height: 48px;
+        background: url(../img/insta.svg) no-repeat;
+        border: #FFFFFF solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .facebook:hover {
+        width: 48px;
+        height: 48px;
+        background: url(../img/facebook.svg) no-repeat;
+        border: #9D8665 solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+    }
+    .facebook {
+        width: 48px;
+        height: 48px;
+        background: url(../img/facebook.svg) no-repeat;
+        border: #FFFFFF solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .twitter:hover {
+        width: 48px;
+        height: 48px;
+        background: url(../img/twitter.svg) no-repeat;
+        border: #9D8665 solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .twitter {
+        width: 48px;
+        height: 48px;
+        background: url(../img/twitter.svg) no-repeat;
+        border: #FFFFFF solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .pinterest:hover {
+        width: 48px;
+        height: 48px;
+        background: url(../img/pinterest.svg) no-repeat;
+        border: #9D8665 solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .pinterest {
+        width: 48px;
+        height: 48px;
+        background: url(../img/pinterest.svg) no-repeat;
+        border: #FFFFFF solid 1px;
+        border-radius: 50%;
+        background-position: 50% 50%;
+        transition-duration: 1s;
+    }
+    .footer-information .rss {
+        display: none;
+    }
+}

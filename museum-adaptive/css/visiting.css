@@ -470,4 +470,121 @@
     }
 }
 
-@media (max-width: 419px) {}
+@media (max-width: 419px) {
+    #visiting {
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 2153px;
+        padding-top: 40px;
+    }
+    #visiting .container {
+        width: 380px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    #visiting .container h2 {
+        width: 306px;
+        height: 40px;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 40px;
+        /* identical to box height, or 143% */
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #9D8665;
+    }
+    .card-wraper {
+        margin: 40px 0 0 0;
+        /* align-items: flex-end; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .name {
+        margin-top: 25px;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .royal-palace .name,
+    .denon-wing .name,
+    .greek-hall .name {
+        letter-spacing: 5px;
+    }
+    .virtual-tour {
+        display: block;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    .gspw {
+        display: block;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    #visiting .container .under-line {
+        margin-top: 20px;
+        width: 380px;
+        height: 3px;
+        background: #710707;
+        border-radius: 0px;
+    }
+    .royal-palace hr,
+    .denon-wing hr,
+    .colonnade-perrault hr,
+    .greek-hall hr,
+    .mona-lisa hr,
+    .night-palace hr {
+        margin-top: 10px;
+        width: 150px;
+        height: 2px;
+        background: #710707;
+    }
+    .virtual-tour {
+        margin-top: 10px;
+        width: 165px;
+        height: 26px;
+    }
+    .gspw {
+        width: 240px;
+        height: 21px;
+    }
+    .royal-palace,
+    .denon-wing,
+    .colonnade-perrault,
+    .greek-hall,
+    .mona-lisa,
+    .night-palace {
+        width: 280px;
+        height: 301px;
+        margin-bottom: 34px;
+    }
+    .royal-palace:hover,
+    .denon-wing:hover,
+    .colonnade-perrault:hover,
+    .greek-hall:hover,
+    .mona-lisa:hover,
+    .night-palace:hover {
+        transition-duration: 2s;
+        box-shadow: 5px 5px 10px 5px black;
+        border-radius: 5px;
+    }
+    .card-wraper img {
+        width: 280px;
+        height: 180px;
+    }
+}

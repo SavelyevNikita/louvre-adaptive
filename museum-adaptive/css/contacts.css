@@ -237,17 +237,17 @@
         /* width: 261px;
         height: 60px; */
         font-family: Forum;
-font-style: normal;
-font-weight: normal;
-font-size: 28px;
-line-height: 40px;
-letter-spacing: 5px;
-text-transform: uppercase;
-color: #9D8665;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #9D8665;
     }
     #contacts .container hr {
         width: 380px;
-height: 3px;
+        height: 3px;
         background: #710707;
         border-radius: 0px;
     }
@@ -259,14 +259,13 @@ height: 3px;
     .contacts_wraper h3 {
         margin-bottom: 40px;
         width: 124px;
-height: 38px;
+        height: 38px;
         font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
     }
     .contacts_wraper a {
         text-decoration: none;
@@ -277,19 +276,80 @@ color: #000000;
     .p3 {
         margin-bottom: 15px;
         font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 19px;
-color: #000000;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
     }
     #contacts .container .wraper .image {
         /* margin-top: 60px; */
         background: url(../img/contacts420.png) no-repeat;
         width: 380px;
-height: 248px;
+        height: 248px;
     }
-
 }
 
-@media (max-width: 419px) {}
+@media (max-width: 419px) {
+    #contacts .container {
+        margin: 40px auto;
+        width: 380px;
+        height: 556px;
+    }
+    #contacts .container h2 {
+        margin: 0 0 20px 0;
+        /* width: 261px;
+        height: 60px; */
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #9D8665;
+    }
+    #contacts .container hr {
+        width: 380px;
+        height: 3px;
+        background: #710707;
+        border-radius: 0px;
+    }
+    #contacts .container .contacts_wraper {
+        margin: 40px 0 40px 0;
+        width: 100%;
+        height: 100%;
+    }
+    .contacts_wraper h3 {
+        margin-bottom: 40px;
+        width: 124px;
+        height: 38px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    .contacts_wraper a {
+        text-decoration: none;
+        color: #000000;
+    }
+    #contacts .container .wraper .contacts_wraper .p1,
+    .p2,
+    .p3 {
+        margin-bottom: 15px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    #contacts .container .wraper .image {
+        /* margin-top: 60px; */
+        background: url(../img/contacts420.png) no-repeat;
+        width: 380px;
+        height: 248px;
+    }
+}
