@@ -98,7 +98,7 @@ html {
     scroll-behavior: smooth;
 }
 
-@media (min-width: 1921px) {
+@media (min-width: 1920px) {
     main {
         color: white;
         height: 8717px;
@@ -414,9 +414,7 @@ html {
 }
 
 
-/* appearance: none */
-
-@media (max-width: 1920px) and (min-width: 1025px) {
+@media (max-width: 1919px) and (min-width: 1024px) {
     main {
         color: white;
         height: 7420px;
@@ -735,7 +733,7 @@ html {
     }
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
+@media (max-width: 1023px) and (min-width: 768px) {
     main {
         color: white;
     }
@@ -1049,4 +1047,10 @@ html {
     }
 }
 
-@media (max-width: 768) and (min-width: 421px) {}
+@media (max-width: 767px) and (min-width: 420px) {
+    .poppup-ticket{
+        display: none;
+    }
+} 
+
+@media (max-width: 419px) {} 

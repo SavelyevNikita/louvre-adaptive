@@ -1,4 +1,4 @@
-@media (min-width: 1921px) {
+@media (min-width: 1920px) {
     #video {
         width: 100%;
         padding: 75px 0;
@@ -22,10 +22,10 @@
     }
     #video .video .button-video {
         position: absolute;
-        width: 152px;
-        height: 152px;
-        left: 416px;
-        top: 146px;
+        width: 220px;
+height: 220px;
+left: 610px;
+top: 380px;
     }
     #video .container .slider-video {
         margin-top: 40px;
@@ -131,7 +131,7 @@
     }
 }
 
-@media (max-width: 1920px) and (min-width: 1025px) {
+@media (max-width: 1919px) and (min-width: 1024px) {
     #video {
         width: 100%;
         padding: 60px 0;
@@ -269,7 +269,7 @@
     }
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
+@media (max-width: 1023px) and (min-width: 768px) {
     #video {
         width: 100%;
     }
@@ -411,13 +411,145 @@
     }
 }
 
-@media (max-width: 768) and (min-width: 421px) {
+@media (max-width: 767px) and (min-width: 420px) {
     #video {
+        width: 100%;
+    }
+    #video .container {
+        margin: 0 auto;
+        width: 380px;
+        height: 475px
+    }
+    #video .video {
+        position: relative;
+        margin-top: 40px;
+        width: 380px;
+height: 226px;
+    }
+    .main-video {
+        width: 380px;
+height: 172px;
+    }
+    #video .container .head {
+        width: 100%;
+        height: 40px;
+    }
+    #video .video .button-video {
+        position: absolute;
+        width: 50px;
+height: 50px;
+left: 165px;
+top: 61px;
+    }
+    #video .container .slider-video {
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+        width: 174px;
+        height: 8px;
+    }
+    #video .container .head h2 {
+        font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 40px;
+/* identical to box height, or 143% */
+
+letter-spacing: 5px;
+text-transform: uppercase;
+
+color: #9D8665;
+    }
+    #video .container .head .video-text {
         display: none;
+    }
+    #video .container .list iframe {
+        width: 180px;
+height: 101px;
+    }
+    .pre-omg-3 {
+        display: none;
+    }
+    #video .container .list {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .panel-video {
+        width: 380px;
+height: 55px;
+        background-color: #000000;
+        position: relative;
+    }
+    .play-pause {
+        background: url(../img/play.svg)no-repeat;
+        background-color: #000000;
+        background-size: cover;
+        position: absolute;
+        width: 14px;
+height: 18px;
+left: 20px;
+top: 21px;
+    }
+    .play-pause:hover {
+        background: url(../img/pause.svg)no-repeat;
+        /* width: 22px;
+        height: 30px; */
+        background-color: #000000;
+        transition-duration: 1s;
+        background-size: cover;
+    }
+    .sound-mute {
+        background: url(../img/volume_on.svg) no-repeat;
+        background-color: #000000;
+        background-size: cover;
+        position: absolute;
+        width: 18px;
+        height: 14px;
+        left: 64px;
+        top: 23px;}
+    .sound-mute:hover {
+        background: url(../img/mute.svg) no-repeat;
+        background-color: #000000;
+        transition-duration: 1s;
+        background-size: cover;
+    }
+    .screen:hover {
+        background: url(../img/fullscreen_exit.svg);
+        background-color: #000000;
+        transition-duration: 1s;
+        background-size: cover;
+    }
+    .screen {
+        background: url(../img/fullscreen.svg);
+        background-color: #000000;
+        background-size: cover;
+        position: absolute;
+        width: 18px;
+height: 18px;
+left: 342px;
+top: 21px;
+    }
+    .progress {
+        background: linear-gradient(to right, #710707 0%, #710707 54%, #c4c4c4 54%, #c4c4c4 100%);
+        cursor: pointer;
+        position: absolute;
+        width: 380px;
+        height: 10px;
+        left: 0px;
+        top: -2px;
+    }
+    .sound-level {
+        position: absolute;
+        width: 200px;
+height: 10px;
+left: 112px;
+top: 25px;
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 419px) {
     #video {
         display: none;
     }

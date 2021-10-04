@@ -1,4 +1,4 @@
-@media (min-width: 1921px) {
+@media (min-width: 1920px) {
     #explore {
         background-color: #030303;
         height: 865px;
@@ -77,7 +77,7 @@
     }
 }
 
-@media (max-width: 1920px) and (min-width: 1025px) {
+@media (max-width: 1919px) and (min-width: 1024px) {
     #explore {
         background-color: #030303;
         /* height: 1149px; */
@@ -152,7 +152,7 @@
     }
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
+@media (max-width: 1023px) and (min-width: 768px) {
     #explore {
         background-color: #030303;
         width: 100%;
@@ -195,6 +195,48 @@
     }
 }
 
-@media (max-width: 768) and (min-width: 421px) {}
+@media (max-width: 767px) and (min-width: 420px) {    
+    #explore {
+    background-color: #030303;
+    width: 100%;
+    padding: 40px 0px 0 0;
+}
+#explore .container {
+    margin: 0 auto;
+    width: 380px;
 
-@media (max-width: 420px) {}
+height: 551px;
+}
+#explore .container h2 {
+    width: 367px;
+height: 40px;
+    font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 40px;
+letter-spacing: 5px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+#explore .container hr {
+    margin: 20px 0 40px;
+    width: 380px;
+height: 3px;
+    left: 0px;
+    top: 95px;
+    background: #710707;
+    border-radius: 0px;
+}
+#explore .container p {
+    display: none;
+}
+#explore .container .image {
+    width: 380px;
+height: 368px;
+    background: url(../img/explore-slider/after.jpg);
+}
+}
+
+@media (max-width: 419px) {}
