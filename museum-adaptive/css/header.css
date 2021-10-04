@@ -59,7 +59,7 @@
     }
 }
 
-@media  (max-width: 1919px) and (min-width: 1024px) {
+@media (max-width: 1919px) and (min-width: 1024px) {
     header {
         background-color: #030303;
     }
@@ -96,7 +96,7 @@
     }
 }
 
-@media  (max-width: 1023px) and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 768px) {
     header {
         background-color: #030303;
         width: 100%;
@@ -152,8 +152,8 @@
         margin: 0;
     }
     .logo img {
-        width: 49px;
-        height: 26px;
+        width: 29px;
+        height: 16px;
     }
     header .header {
         width: 380px;
@@ -169,8 +169,8 @@
         font-family: Forum;
         font-style: normal;
         font-weight: normal;
-        font-size: 28px;
-        line-height: 50px;
+        font-size: 16px;
+        line-height: 18px;
         letter-spacing: 5px;
         text-transform: uppercase;
         color: #FFFFFF;

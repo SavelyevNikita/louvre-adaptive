@@ -19,16 +19,17 @@
         background-attachment: fixed;
     }
 }
+
 @media (max-width: 767px) and (min-width: 420px) {
     #paralax .container div {
         margin: 0 auto;
-        height: 380px;
+        height: 300px;
         top: 6211px;
         background-position: center;
         background: url(../img/parallax2.jpg);
         background-size: cover;
         background-attachment: fixed;
-    }   
+    }
 }
 
 

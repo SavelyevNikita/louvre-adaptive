@@ -449,14 +449,14 @@
     #tickets .container {
         margin: 40px auto;
         width: 380px;
-height: 679px;
+        height: 679px;
     }
     #tickets .container h2 {
         font-family: Forum;
         font-style: normal;
         font-weight: normal;
-        font-size: 40px;
-        line-height: 60px;
+        font-size: 28px;
+        line-height: 40px;
         letter-spacing: 5px;
         text-transform: uppercase;
         color: #9D8665;
@@ -464,7 +464,7 @@ height: 679px;
     #tickets .container hr {
         margin-top: 20px;
         width: 380px;
-height: 3px;
+        height: 3px;
         background: #710707;
     }
     #tickets .container .wraper {
@@ -475,14 +475,13 @@ height: 3px;
     }
     #tickets .container .wraper .image {
         width: 380px;
-height: 160px;
+        height: 160px;
         background: url(../img/ticket420.png) no-repeat;
     }
     #tickets .container .wraper .order {
         width: 175px;
         height: 286px;
         margin: 0 auto;
-
     }
     #tickets .container .wraper .order .ticket-type {
         display: none;
@@ -504,21 +503,21 @@ height: 160px;
     .header-amount {
         display: block;
         font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-color: #000000;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #000000;
         margin: 40px 0px 20px 0px;
     }
     #tickets .container .wraper .order .amount p {
         font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 19px;
-color: #000000;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
         margin: 0 0 10px 0;
     }
     #tickets .container .wraper .order .amount .senior-number {
@@ -528,7 +527,7 @@ color: #000000;
         height: 50px;
         display: flex;
         justify-content: center;
-        margin-bottom: 40px;
+        margin-bottom: 48px;
     }
     .button {
         margin-top: 40px;
@@ -562,12 +561,12 @@ color: #000000;
     #tickets .container .wraper .order .amount .total {
         display: block;
         font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-color: #000000;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #000000;
     }
     #basic_number,
     #senior_number {
@@ -580,4 +579,3 @@ color: #000000;
         color: #000000;
     }
 }
-

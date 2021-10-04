@@ -156,22 +156,23 @@
     #explore {
         background-color: #030303;
         width: 100%;
-        padding: 40px 0px 0 0;
+        padding-top: 40px;
     }
     #explore .container {
         margin: 0 auto;
-        /* position: relative; */
         width: 768px;
         height: 908px;
+        padding: 0 0 0 20px;
     }
     #explore .container h2 {
-        width: 367px;
+        width: 100%;
         height: 60px;
         font-family: Forum;
         font-style: normal;
         font-weight: normal;
         font-size: 40px;
         line-height: 60px;
+        /* identical to box height, or 150% */
         letter-spacing: 5px;
         text-transform: uppercase;
         color: #FFFFFF;
@@ -195,48 +196,46 @@
     }
 }
 
-@media (max-width: 767px) and (min-width: 420px) {    
+@media (max-width: 767px) and (min-width: 420px) {
     #explore {
-    background-color: #030303;
-    width: 100%;
-    padding: 40px 0px 0 0;
-}
-#explore .container {
-    margin: 0 auto;
-    width: 380px;
-
-height: 551px;
-}
-#explore .container h2 {
-    width: 367px;
-height: 40px;
-    font-family: Forum;
-font-style: normal;
-font-weight: normal;
-font-size: 28px;
-line-height: 40px;
-letter-spacing: 5px;
-text-transform: uppercase;
-
-color: #FFFFFF;
-}
-#explore .container hr {
-    margin: 20px 0 40px;
-    width: 380px;
-height: 3px;
-    left: 0px;
-    top: 95px;
-    background: #710707;
-    border-radius: 0px;
-}
-#explore .container p {
-    display: none;
-}
-#explore .container .image {
-    width: 380px;
-height: 368px;
-    background: url(../img/explore-slider/after.jpg);
-}
+        background-color: #030303;
+        width: 100%;
+        padding: 40px 0px 0 0;
+    }
+    #explore .container {
+        margin: 0 auto;
+        width: 380px;
+        height: 511px;
+    }
+    #explore .container h2 {
+        width: 367px;
+        height: 40px;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    #explore .container hr {
+        margin: 20px 0 40px;
+        width: 380px;
+        height: 3px;
+        left: 0px;
+        top: 95px;
+        background: #710707;
+        border-radius: 0px;
+    }
+    #explore .container p {
+        display: none;
+    }
+    #explore .container .image {
+        width: 380px;
+        height: 368px;
+        background: url(../img/explore-slider/after.jpg);
+    }
 }
 
 @media (max-width: 419px) {}
