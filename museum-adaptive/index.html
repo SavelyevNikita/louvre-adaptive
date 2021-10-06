@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Museum</title>
-    <script src="../museum-adaptive/js/script.js"></script>
+    <!-- <script src="../museum-adaptive/js/script.js"></script> -->
     <link rel="icon" href="./favicon.ico">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
@@ -151,13 +151,16 @@
                     <p class="video-text">Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
                 </div>
                 <div class="video">
-                    <img class="main-video" src="../museum-adaptive/img/videoImg.png" alt="future will be video">
+                    <video id="player" width="100%" height="100%">
+                        <source id="video_slider" src="../museum-adaptive/video/video0.mp4" type="video/mp4">
+                    </video>
+                    <!-- <img class="main-video" src="../museum-adaptive/img/videoImg.png" alt="future will be video"> -->
                     <div class="panel-video">
-                        <div class="play-pause"><button></button></div>
-                        <input class="progress" type="range" value="43" min="0" max="100" step="1">
-                        <div class="sound-mute"><button></button></div>
-                        <input class="sound-level" type="range" value="43" min="0" max="100" step="1">
-                        <div class="screen"> <button></button> </div>
+                        <button class="play-pause" id="play_pause"></button>
+                        <input class="progress" id="progress" type="range" value="0" min="0" max="100" step="1">
+                        <button id="sound_mute" class="sound-mute"></button>
+                        <input class="sound-level" id="sound_level" type="range" value="43" min="0" max="100" step="1">
+                        <button id="screen" class="screen"></button>
                     </div>
                     <img class="button-video" src="../museum-adaptive/img/playbutton.png" alt="button cover future will be video">
                 </div>
@@ -390,6 +393,7 @@
             <div class="card-info"></div>
         </div>
     </div>
+    <script src="../museum-adaptive/js/video.js"></script>
 </body>
 
 </html>

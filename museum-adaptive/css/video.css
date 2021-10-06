@@ -9,8 +9,9 @@
         height: 1246px;
     }
     #video .video {
+        margin: 0 auto;
         position: relative;
-        margin-top: 25px;
+        /* margin-top: 25px; */
         width: 1440px;
         height: 735px;
     }
