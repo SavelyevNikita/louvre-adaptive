@@ -81,12 +81,20 @@
         justify-content: space-around;
     }
     .play-pause {
-        background: url(../img/play.svg);
+        background: url(../img/play.svg) no-repeat;
         width: 22px;
         height: 30px;
         background-color: #000000;
+        transition-duration: 1s;
     }
-    .play-pause:hover {
+    /* .play-pause:hover {
+        background: url(../img/pause.svg);
+        width: 22px;
+        height: 30px;
+        background-color: #000000;
+        transition-duration: 1s;
+    } */
+    .play-pause-pressed {
         background: url(../img/pause.svg);
         width: 22px;
         height: 30px;
@@ -98,15 +106,30 @@
         background-color: #000000;
         width: 36px;
         height: 30px;
+        transition-duration: 1s;
     }
-    .sound-mute:hover {
+    /* .sound-mute:hover {
+        background: url(../img/mute.svg);
+        background-color: #000000;
+        width: 36px;
+        height: 30px;
+        transition-duration: 1s;
+    } */
+    .sound-mute-pressed {
         background: url(../img/mute.svg);
         background-color: #000000;
         width: 36px;
         height: 30px;
         transition-duration: 1s;
     }
-    .screen:hover {
+    /* .screen:hover {
+        background: url(../img/fullscreen_exit.svg);
+        background-color: #000000;
+        width: 36px;
+        height: 36px;
+        transition-duration: 1s;
+    } */
+    .screen-pressed {
         background: url(../img/fullscreen_exit.svg);
         background-color: #000000;
         width: 36px;
@@ -118,6 +141,7 @@
         background-color: #000000;
         width: 36px;
         height: 36px;
+        transition-duration: 1s;
     }
     .progress {
         background: linear-gradient(to right, #710707 0%, #710707 54%, #c4c4c4 54%, #c4c4c4 100%);
