@@ -133,6 +133,7 @@ progress.addEventListener('input', (e) => {
     console.log(progress.value);
 })
 progress.addEventListener('click', (e) => {
-    // player.pause();
+    player.pause();
     player.currentTime = (progress.value / 100) * player.duration;
+    player.play();
 });
